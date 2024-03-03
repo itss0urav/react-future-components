@@ -40,9 +40,11 @@
     "url": "https://github.com/itss0urav/react-future-components/issues"
   },
   "homepage": "https://github.com/itss0urav/react-future-components#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
