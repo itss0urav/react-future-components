@@ -22,9 +22,10 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npm run build:css && tsc && vite build",
     "prepare": "npm run build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:css": "postcss src/index.css -o dist/index.css"
   },
   "repository": {
     "type": "git",
