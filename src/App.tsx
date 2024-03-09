@@ -1,22 +1,21 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Button } from "./components/Button";
+import AllButtons from "./pages/AllButtons";
+import AllCards from "./pages/AllCards";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="app">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/AllButtons" element={<AllButtons />} />
+          <Route path="/AllCards" element={<AllCards />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
 
-      <div className="flex flex-wrap gap-4">
-        <Button variant="darkspace" value="darkspace" />
-        <Button variant="whitespace" value="whitespace" />
-        <Button variant="success" value="success" />
-        <Button variant="danger" value="danger" />
-        <Button variant="bluemoon" value="bluemoon" />
-        <Button variant="neon-darkspace" value="neonDarkspace" />
-        <Button variant="neon-whitespace" value="neonWhitespace" />
-        <Button variant="neon-success" value="neonSuccess" />
-        <Button variant="neon-danger" value="neon-danger" />
-        <Button variant="neon-night" value="neon-night" />
-      </div>
+
     </div>
   );
 }

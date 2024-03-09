@@ -1,4 +1,4 @@
-# Modern UI components package for React
+# Modern UI components
 
 - Build using React vite typescript
 
