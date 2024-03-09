@@ -1,5 +1,5 @@
 # Modern UI components package for React
 
-- Build using React typescript vite tailwind
+- Build using React vite typescript
 
 By itss0urav

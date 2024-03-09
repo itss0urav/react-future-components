@@ -21,7 +21,7 @@ button {
 .whitespace {
   background-color: #fff;
   color: #333;
-  border: 1px solid #333;
+  border: 1px solid #000000;
 }
 .whitespace:hover {
   background-color: #000;
@@ -68,7 +68,7 @@ button {
 /* Neon White Space Button */
 .neon-whitespace {
   background-color: #fff;
-  border: 1px solid #333;
+  border: 1px solid #000000;
 
   color: #222;
 }
