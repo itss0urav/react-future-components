@@ -1,0 +1,115 @@
+/* Button base styles */
+button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Dark Space Button */
+.darkspace {
+  background-color: #333;
+  color: #fff;
+}
+.darkspace:hover {
+  background-color: #000;
+}
+
+/* White Space Button */
+.whitespace {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+.whitespace:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Success Button */
+.success {
+  background-color: #28a745;
+  color: #fff;
+}
+.success:hover {
+  background-color: #218838;
+}
+
+/* Danger Button */
+.danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+.danger:hover {
+  background-color: #c82333;
+}
+
+/* Blue Moon Button */
+.bluemoon {
+  background-color: #007bff;
+  color: #fff;
+}
+.bluemoon:hover {
+  background-color: #0056b3;
+}
+
+/* Neon Dark Space Button */
+.neon-darkspace {
+  background-color: #222;
+  color: #fff;
+}
+.neon-darkspace:hover {
+  background-color: #000;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Neon White Space Button */
+.neon-whitespace {
+  background-color: #fff;
+  border: 1px solid #333;
+
+  color: #222;
+}
+.neon-whitespace:hover {
+  background-color: #000;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+/* Neon Success Button */
+.neon-success {
+  background-color: #28a745;
+  color: #fff;
+}
+.neon-success:hover {
+  background-color: #90ffa8;
+  color: #000;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Neon Danger Button */
+.neon-danger {
+  background-color: #ff0000;
+  color: #fff;
+}
+.neon-danger:hover {
+  background-color: #dc3545;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+/* Neon Night Button */
+.neon-night {
+  background-color: #00eeff;
+  color: #000;
+}
+.neon-night:hover {
+  background-color: #00fff2;
+  box-shadow: 0 0 15px rgba(0, 238, 255, 0.5);
+}
+
+/* Button hover effect */
+button:hover {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

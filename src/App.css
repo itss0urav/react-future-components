@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* background-color: black; */
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+ margin: 10px;
+}

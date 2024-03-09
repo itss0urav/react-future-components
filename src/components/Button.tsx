@@ -1,4 +1,4 @@
-import "../index.css";
+import "./Button.css";
 import React from 'react';
 
 interface ButtonProps {
@@ -11,41 +11,41 @@ export const Button: React.FC<ButtonProps> = ({ variant = 'darkspace', value = '
 
   switch (variant) {
     case 'darkspace':
-      buttonStyle = ` bg-black text-white hover:bg-white hover:text-black `;
+      buttonStyle = `darkspace`;
       break;
     case 'whitespace':
-      buttonStyle = `bg-white text-black hover:bg-black hover:text-white `;
+      buttonStyle = `whitespace`;
       break;
     case 'success':
-      buttonStyle = `bg-green-500 text-white hover:bg-green-700 `;
+      buttonStyle = `success`;
       break;
     case 'danger':
-      buttonStyle = `bg-red-600 text-white hover:bg-red-700 `;
+      buttonStyle = `danger`;
       break;
     case 'bluemoon':
-      buttonStyle = `bg-blue-600 text-white hover:bg-blue-700 `;
+      buttonStyle = `bluemoon`;
       break;
     case 'neon-darkspace':
-      buttonStyle = ` bg-black neon-gray text-white hover:bg-white hover:text-black `;
+      buttonStyle = `neon-darkspace`;
       break;
     case 'neon-whitespace':
-      buttonStyle = `bg-white neon-gray text-black hover:bg-black hover:text-white `;
+      buttonStyle = `neon-whitespace`;
       break;
     case 'neon-success':
-      buttonStyle = `bg-green-500 neon-green text-white hover:bg-green-400 `;
+      buttonStyle = `neon-success`;
       break;
     case 'neon-danger':
-      buttonStyle = `bg-red-600 neon-red text-white hover:bg-red-500 `;
+      buttonStyle = `neon-danger`;
       break;
     case 'neon-night':
-      buttonStyle = `bg-cyan-500 neon-cyan text-white hover:bg-cyan-400 `;
+      buttonStyle = `neon-night`;
       break;
     default:
-      buttonStyle = `bg-blue-500 hover:bg-blue-400 `;
+      buttonStyle = `default`;
   }
 
   return (
-    <button className={`${buttonStyle} font-medium py-1 px-3 rounded-lg text-sm sm:text-base md:text-lg lg:text-xl flex items-center justify-center`}>
+    <button className={buttonStyle}>
       {value}
     </button>
   );
