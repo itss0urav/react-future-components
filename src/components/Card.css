@@ -1,0 +1,132 @@
+/* Styles for card1 */
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 15px;
+  border: 1px solid #999191;
+  box-shadow: 0px 0px 20px rgb(0, 87, 138);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(31, 66, 95) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  transition: all 0.5s ease;
+}
+
+.card1:hover {
+  box-shadow: 0px 0px 20px rgb(68, 183, 250);
+  transform: scale(1.02);
+}
+
+.card1 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 15px 15px 0px 0px;
+}
+
+@media (max-width: 600px) {
+  .card1 {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+/* Styles for card2 */
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  border: 1px solid #999191;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(31, 66, 95) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  transition: all 0.5s ease;
+}
+
+.card2:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.card2 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 15px 15px 0px 0px;
+}
+
+@media (max-width: 600px) {
+  .card2 {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+/* Styles for card3 */
+.card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  border: 1px solid #999191;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(31, 66, 95) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  transition: all 0.5s ease;
+}
+
+.card3:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.card3 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 15px 15px 0px 0px;
+}
+
+@media (max-width: 600px) {
+  .card3 {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+.card-content {
+  padding: 20px;
+}
+.card-content h2 {
+  margin-bottom: 1rem;
+}
