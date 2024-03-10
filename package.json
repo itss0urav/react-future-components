@@ -22,7 +22,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && postcss src/components/Button.css -o dist/Button.css && vite build",
+    "build": "tsc && vite build",
     "prepare": "npm run build",
     "preview": "vite preview"
   },
